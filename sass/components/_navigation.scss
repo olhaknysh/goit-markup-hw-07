@@ -1,0 +1,26 @@
+.nav__list {
+  align-items: center;
+}
+
+.nav__list-item {
+  position: relative;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.nav__list > .nav__list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav__link {
+  color: $title-text-color;
+  transition: color $animation;
+
+  &:hover {
+    color: $accent-color;
+  }
+  &:focus {
+    color: $accent-color;
+  }
+}

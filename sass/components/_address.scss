@@ -1,0 +1,37 @@
+.header__address {
+  align-items: center;
+  margin-left: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: $primary-text-color;
+
+  font-style: normal;
+}
+
+.header__address-link {
+  color: $primary-text-color;
+  transition: color $animation;
+
+  &:hover {
+    color: $accent-color;
+  }
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.header__address-link:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header__address-icon {
+  margin-right: 10px;
+  fill: $primary-text-color;
+
+  transition: fill $animation;
+}
+
+.header__address-link:hover .header__address-icon,
+.header__address-link:focus .header__address-icon {
+  fill: $accent-color;
+}

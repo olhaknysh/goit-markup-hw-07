@@ -1,0 +1,35 @@
+.special {
+  width: calc((100% - 3 * 30px) / 4);
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.special__title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  &::before {
+    display: block;
+    content: "";
+    max-width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: $our-team-back-color;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.special__section {
+  width: 231px;
+  font-size: 14px;
+  line-height: 1.71;
+}

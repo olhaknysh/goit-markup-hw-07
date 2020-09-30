@@ -1,0 +1,43 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  align-items: baseline;
+
+  background-color: $background-hero-color;
+}
+
+.footer__address {
+  width: 230px;
+  margin-right: 70px;
+}
+
+.footer__address-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: $background-color;
+}
+
+.footer__address-text {
+  width: 231px;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  &--white {
+    display: block;
+    color: $background-color;
+    margin-bottom: 10px;
+  }
+
+  &--margin {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
